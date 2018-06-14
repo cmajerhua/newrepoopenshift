@@ -1,11 +1,11 @@
 <?php
 
-	echo "Hola mundo Open Shift";
+	
 	$dbhost = getenv("MYSQL_SERVICE_HOST");
 	$dbport = getenv("MYSQL_SERVICE_PORT");
 	$dbuser = getenv("databaseuser");
 	$dbpwd = getenv("databasepassword");
-	$dbname = getenv("databasename");
+	$dbname = getenv("daztabasename");
 
 $con = mysqli_connect($dbhost,$dbuser,$dbpwd,$dbname);
 
